@@ -1,0 +1,44 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://lapolarhotel.com/",
+ "read_at": "2026-11-02T09:27:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://lapolarhotel.com/",
+   "sha256": "8564e11080af1bcd2a2ce1655c2811415d557c590a966896449280326eb4d9f6",
+   "chars": 3696
+  },
+  {
+   "url": "https://lapolarhotel.com/contacto/",
+   "sha256": "91b130430eea87c6ccc8d095b63ab5ae38052c0b9b360c0341ce0c9e9d5dfe4d",
+   "chars": 1262
+  },
+  {
+   "url": "https://lapolarhotel.com/el-hotel/",
+   "sha256": "391070fc27095743276276bc740960078f20f81f68cd274ace04b39df2669303",
+   "chars": 2461
+  },
+  {
+   "url": "https://lapolarhotel.com/habitaciones/",
+   "sha256": "30c504dab36f791e2289761a30379518e2de79958679989a20ec922dc36eec6f",
+   "chars": 1615
+  },
+  {
+   "url": "https://lapolarhotel.com/reserva/",
+   "sha256": "3b70975b7af3b6adc1982d1373fad5c428d487639a01a50dfb9b10e7160d3f97",
+   "chars": 619
+  }
+ ],
+ "other_pages_read": [
+  "https://lapolarhotel.com",
+  "https://lapolarhotel.com/aviso-legal/",
+  "https://lapolarhotel.com/experiencias/",
+  "https://lapolarhotel.com/habitaciones/habitacion-doble/",
+  "https://lapolarhotel.com/habitaciones/habitacion-matrimonial/",
+  "https://lapolarhotel.com/habitaciones/habitacion-triple/",
+  "https://lapolarhotel.com/peregrinos/",
+  "https://lapolarhotel.com/politica-de-privacidad/",
+  "https://lapolarhotel.com/politica-de-sostenibilidad/"
+ ]
+}
