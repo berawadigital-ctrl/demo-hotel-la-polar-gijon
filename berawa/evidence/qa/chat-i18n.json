@@ -1,0 +1,421 @@
+{
+ "url": "http://127.0.0.1:41697/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene 24 habitaciones exteriores: con cama de matrimonio de 135 cm (bajo petición), con dos camas individuales de 90 cm y triples/familiares"
+    },
+    {
+     "q": "¿Qué tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Todas tienen baño privado con ducha y bañera, wifi gratuito, calefacción, TV por cable, caja fuerte, escritorio, secador, artículos de aseo "
+    },
+    {
+     "q": "¿Tenéis parking?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí, tienen parking privado, con suplemento y sujeto a disponibilidad; consúltalo al reservar."
+    },
+    {
+     "q": "¿Admitís mascotas?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí: se permite una mascota de máximo 12 kg por habitación, bajo petición previa y con suplemento."
+    },
+    {
+     "q": "¿Dónde estáis?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Está en la Avda. José Manuel Palacio Álvarez, 20, 33212 Gijón, junto a la playa de Poniente y el paseo marítimo."
+    },
+    {
+     "q": "¿Está cerca la estación de tren?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sí: la estación de tren está a 200 m; llegas y en 3 minutos estás en tu habitación."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Puedes reservar directamente en su motor (botón Reservar) o llamar al 984 296 403. Este asistente no confirma disponibilidad ni reservas. Co"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Puedes reservar directamente en su motor (botón Reservar) o llamar al 984 296 403. Este asistente no confirma disponibilidad ni reservas. Co"
+    },
+    {
+     "q": "¿Hay recepción 24 horas?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sí, la recepción está abierta 24 horas."
+    },
+    {
+     "q": "Soy peregrino, ¿qué ofrecéis?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "El Camino del Norte pasa por su puerta. Con tu credencial tienes precios especiales y servicios para peregrinos: información del camino, par"
+    },
+    {
+     "q": "¿Qué ver en Gijón?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "A un paseo: la playa de Poniente, el Acuario, el puerto deportivo, Cimavilla, el Cerro de Santa Catalina y el paseo marítimo hasta la playa "
+    },
+    {
+     "q": "¿Cuál es vuestro teléfono?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono: 984 296 403. Correo: info@lapolarhotel.com. Consultar por WhatsApp →"
+    },
+    {
+     "q": "¿Tenéis cuna?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sí, tienen cunas y camas supletorias, bajo petición y según disponibilidad."
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 984 296 403 · info@lapolarhotel.com."
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 984 296 403 · info@lapolarhotel.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Tenéis parking?",
+    "¿Admitís mascotas?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat3"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has 24 outward-facing rooms: with a 135 cm double bed (on request), with two 90 cm single beds, and triple/family rooms with extra beds."
+    },
+    {
+     "q": "What do the rooms include?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "All have a private bathroom with shower and bathtub, free wifi, heating, cable TV, safe, desk, hairdryer, toiletries and telephone with wake"
+    },
+    {
+     "q": "Do you have parking?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Yes, they have private parking, with a supplement and subject to availability; check when booking."
+    },
+    {
+     "q": "Do you allow pets?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes: one pet of up to 12 kg is allowed per room, on prior request and with a supplement."
+    },
+    {
+     "q": "Where are you?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "It is at Avda. José Manuel Palacio Álvarez, 20, 33212 Gijón, next to Poniente beach and the seafront promenade."
+    },
+    {
+     "q": "Is the train station close?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Yes: the train station is 200 m away; you arrive and in 3 minutes you are in your room."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "You can book directly through their engine (Book button) or call 984 296 403. This assistant does not confirm availability or bookings. Ask "
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "You can book directly through their engine (Book button) or call 984 296 403. This assistant does not confirm availability or bookings. Ask "
+    },
+    {
+     "q": "Is reception open 24 hours?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Yes, reception is open 24 hours."
+    },
+    {
+     "q": "I am a pilgrim, what do you offer?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "The Camino del Norte passes their door. With your credential you get special rates and pilgrim services: route information, weather report, "
+    },
+    {
+     "q": "What to see in Gijón?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Within walking distance: Poniente beach, the Aquarium, the marina, Cimavilla, Cerro de Santa Catalina and the seafront promenade to San Lore"
+    },
+    {
+     "q": "What is your phone number?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone: 984 296 403. Email: info@lapolarhotel.com. Ask on WhatsApp →"
+    },
+    {
+     "q": "Do you have a cot?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Yes, cots and extra beds are available on request and subject to availability."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 984 296 403 · info@lapolarhotel.com."
+    },
+    {
+     "q": "Do you have a pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 984 296 403 · info@lapolarhotel.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Do you have parking?",
+    "Do you allow pets?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il compte 24 chambres côté rue : avec lit double de 135 cm (sur demande), avec deux lits simples de 90 cm, et triples/familiales avec lits d"
+    },
+    {
+     "q": "Que comprennent les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Toutes ont salle de bains privée avec douche et baignoire, wifi gratuit, chauffage, TV câblée, coffre-fort, bureau, sèche-cheveux, produits "
+    },
+    {
+     "q": "Avez-vous un parking ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Oui, ils ont un parking privé, avec supplément et selon disponibilité ; à vérifier lors de la réservation."
+    },
+    {
+     "q": "Acceptez-vous les animaux ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui : un animal de 12 kg maximum par chambre, sur demande préalable et avec supplément."
+    },
+    {
+     "q": "Où êtes-vous ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "L’hôtel se trouve Avda. José Manuel Palacio Álvarez, 20, 33212 Gijón, près de la plage de Poniente et du front de mer."
+    },
+    {
+     "q": "La gare est-elle proche ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Oui : la gare est à 200 m ; en 3 minutes vous êtes dans votre chambre."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver directement via leur moteur (bouton Réserver) ou appeler le 984 296 403. Cet assistant ne confirme ni disponibilité ni "
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver directement via leur moteur (bouton Réserver) ou appeler le 984 296 403. Cet assistant ne confirme ni disponibilité ni "
+    },
+    {
+     "q": "La réception est-elle ouverte 24 h/24 ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Oui, la réception est ouverte 24 h/24."
+    },
+    {
+     "q": "Je suis pèlerin, que proposez-vous ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Le Camino del Norte passe devant leur porte. Avec votre credencial, tarifs spéciaux et services pour pèlerins : informations sur le chemin, "
+    },
+    {
+     "q": "Que voir à Gijón ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "À pied : la plage de Poniente, l’Aquarium, le port de plaisance, Cimavilla, le Cerro de Santa Catalina et le front de mer jusqu’à la plage d"
+    },
+    {
+     "q": "Quel est votre numéro de téléphone ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone : 984 296 403. E-mail : info@lapolarhotel.com. Écrire sur WhatsApp →"
+    },
+    {
+     "q": "Avez-vous un lit bébé ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Oui, lits bébé et lits d’appoint sur demande et selon disponibilité."
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 984 296 403 · info@lapolarhotel.com."
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 984 296 403 · info@lapolarhotel.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Avez-vous un parking ?",
+    "Acceptez-vous les animaux ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es hat 24 Außenzimmer: mit 135-cm-Doppelbett (auf Anfrage), mit zwei 90-cm-Einzelbetten sowie Dreibett-/Familienzimmer mit Zustellbetten."
+    },
+    {
+     "q": "Was bieten die Zimmer?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Alle haben eigenes Bad mit Dusche und Badewanne, kostenloses WLAN, Heizung, Kabel-TV, Safe, Schreibtisch, Föhn, Pflegeartikel und Telefon mi"
+    },
+    {
+     "q": "Gibt es einen Parkplatz?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Ja, es gibt einen Privatparkplatz gegen Aufpreis und je nach Verfügbarkeit; bitte bei der Buchung anfragen."
+    },
+    {
+     "q": "Sind Haustiere erlaubt?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Ja: ein Haustier bis 12 kg pro Zimmer, auf vorherige Anfrage und gegen Aufpreis."
+    },
+    {
+     "q": "Wo liegt das Hotel?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Das Hotel liegt in der Avda. José Manuel Palacio Álvarez, 20, 33212 Gijón, neben dem Strand von Poniente und der Strandpromenade."
+    },
+    {
+     "q": "Ist der Bahnhof in der Nähe?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Ja: Der Bahnhof ist 200 m entfernt; in 3 Minuten sind Sie im Zimmer."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sie können direkt über die Buchungsmaschine buchen (Schaltfläche Buchen) oder 984 296 403 anrufen. Dieser Assistent bestätigt weder Verfügba"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sie können direkt über die Buchungsmaschine buchen (Schaltfläche Buchen) oder 984 296 403 anrufen. Dieser Assistent bestätigt weder Verfügba"
+    },
+    {
+     "q": "Ist die Rezeption rund um die Uhr besetzt?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Ja, die Rezeption ist rund um die Uhr (24 Stunden) besetzt."
+    },
+    {
+     "q": "Ich bin Pilger, was bieten Sie?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Der Camino del Norte führt an der Tür vorbei. Mit Pilgerausweis gibt es Sonderpreise und Pilger-Services: Weginfos, Wetterbericht, Gepäckauf"
+    },
+    {
+     "q": "Was kann man in Gijón besichtigen?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Zu Fuß erreichbar: Strand von Poniente, Aquarium, Jachthafen, Cimavilla, Cerro de Santa Catalina und die Promenade bis zum Strand von San Lo"
+    },
+    {
+     "q": "Wie ist Ihre Telefonnummer?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telefon: 984 296 403. E-Mail: info@lapolarhotel.com. Per WhatsApp schreiben →"
+    },
+    {
+     "q": "Haben Sie ein Kinderbett?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Ja, Kinderbetten und Zustellbetten gibt es auf Anfrage und je nach Verfügbarkeit."
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 984 296 403 · info@lapolarhotel.com."
+    },
+    {
+     "q": "Haben Sie einen Pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 984 296 403 · info@lapolarhotel.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Gibt es einen Parkplatz?",
+    "Sind Haustiere erlaubt?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
